@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Sree 💙</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating Background Hearts -->
+    <div class="hearts"></div>
+
+    <!-- =========================
+         WELCOME SCREEN
+    ========================== -->
+
+    <section id="welcome" class="screen active">
+
+        <div class="welcome-box">
+
+            <div class="small-text">
+                ✨ A LITTLE SURPRISE FOR YOU ✨
+            </div>
+
+            <h1>
+                Hey Sree... 💙
+            </h1>
+
+            <p>
+                I made something special just for you.
+            </p>
+
+            <div class="gift">
+                🎁
+            </div>
+
+            <button onclick="startSurprise()">
+                Open Your Surprise 💙
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         COUNTDOWN
+    ========================== -->
+
+    <section id="countdownScreen" class="screen">
+
+        <div class="content">
+
+            <p class="small-text">
+                Something beautiful is coming...
+            </p>
+
+            <h1>
+                Sree Lekha's Birthday 🎂
+            </h1>
+
+            <div id="countdown">
+
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <small>Days</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <small>Hours</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <small>Minutes</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <small>Seconds</small>
+                </div>
+
+            </div>
+
+            <p class="countdown-message">
+                Counting every second until your special day... 💙
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         BIRTHDAY SCREEN
+    ========================== -->
+
+    <section id="birthdayScreen" class="screen">
+
+        <div class="birthday-content">
+
+            <div class="confetti">🎉 🎊 🎉</div>
+
+            <h1>
+                HAPPY BIRTHDAY
+            </h1>
+
+            <h2>
+                SREE LEKHA (🐿️)💙
+            </h2>
+
+            <div class="cake">
+                🎂
+            </div>
+
+            <p>
+                Today is all about you! ✨
+            </p>
+
+            <button onclick="showMemories()">
+                Continue 💙
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MEMORIES
+    ========================== -->
+
+    <section id="memoriesScreen" class="screen">
+
+        <div class="content">
+
+            <p class="small-text">
+                A few memories...
+            </p>
+
+            <h1>
+                Our Little Memories 📸
+            </h1>
+
+            <p class="subtitle">
+                Two years, countless memories, and many more to come. 💙
+            </p>
+
+            <div class="gallery">
+
+                <div class="photo-card">
+                    <img src="images/img_1.jpg.jpeg" alt="Our memory 1>
+                    <p>One beautiful memory 💙</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="images/img_9.jpg.jpeg" alt="Our memory 2">
+                    <p>A moment I'll always remember....it's our 1st-meet  ✨</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="images/img_12.jpg.jpeg" alt="Our memory 3">
+                    <p>Just us ❤️......... it's your birthday ...first time both of you and me  celebrate your birthday with travel from one place to another place.</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="images/img_11.jpg.jpeg" alt="Our memory 4">
+                    <p>Another beautiful moment 🥰.....it's our first Anniversary...in this 1-year we can build so many memories,fun,sad,enjoy,care etc...and continues.</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="images/img_2.jpg.jpeg " alt="Our memory 5">
+                    <p>And many more memories to come......... recently we meet at temple.it can be one of memory to watch a Surya movie with you. 💙</p>
+                </div>
+
+            </div>
+
+            <button onclick="showMessage()">
+                One Last Surprise 💌
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FINAL MESSAGE
+    ========================== -->
+
+    <section id="messageScreen" class="screen">
+
+        <div class="letter">
+
+            <div class="envelope-icon">
+                💌
+            </div>
+
+            <h1>
+                Dear Sree Lekha,
+            </h1>
+
+            <div id="typedMessage"></div>
+
+            <div class="signature">
+
+                <p>
+                    With lots of love,
+                </p>
+
+                <h2>
+                    PVS Sai(Dudu) 💙
+                </h2>
+
+            </div>
+
+            <div class="final-heart">
+                ❤️
+            </div>
+
+            <button onclick="showFinal()">
+                One More Thing 🫣
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FINAL SURPRISE
+    ========================== -->
+
+    <section id="finalScreen" class="screen">
+
+        <div class="final-content">
+
+            <div class="big-heart">
+                💙
+            </div>
+
+            <h1>
+                Sree Lekha
+            </h1>
+
+            <h2>
+                You are very special to me. ❤️
+            </h2>
+
+            <p>
+                No matter where life takes us,
+                I hope we keep creating beautiful
+                memories together.
+            </p>
+
+            <div class="birthday-wish">
+
+                🎂 HAPPY BIRTHDAY 🎂
+
+                <br>
+
+                <span>
+                    MY BUBU & UDATHA 🐿️ 💙
+                </span>
+
+            </div>
+
+            <p class="forever">
+                — PVS Sai (🐼) --❤️
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Music -->
+    <audio id="birthdayMusic" loop>
+        <source src="music/birthday.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
